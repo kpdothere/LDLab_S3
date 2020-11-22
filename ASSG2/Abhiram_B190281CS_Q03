@@ -1,0 +1,52 @@
+# Compile of inc_16bit.v was successful.
+# Compile of testbench_inc_16bit.v was successful.
+vsim 16_bit_incrementer.testbench_inc_16bit
+# vsim 
+# Start time: 16:55:40 on Oct 28,2020
+# Loading 16_bit_incrementer.testbench_inc_16bit
+# Loading 16_bit_incrementer.inc_16bit
+# Loading 16_bit_incrementer.halfadder
+# Loading 16_bit_incrementer.xor_gate
+# Loading 16_bit_incrementer.and_gate
+add wave -position insertpoint sim:/testbench_inc_16bit/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: k p  Hostname: KPHERE  ProcessID: 13960
+# 
+#           Attempting to use alternate WLF file "./wlftj5rtw8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftj5rtw8
+# 
+run
+# a =  5000, y= 5001
+# a =  5001, y= 5002
+# a =  5002, y= 5003
+# a =  5003, y= 5004
+# a =  5004, y= 5005
+# a =  5005, y= 5006
+# a =  5006, y= 5007
+# a =  5007, y= 5008
+# a =  5008, y= 5009
+# a =  5009, y= 5010
+# a =  5010, y= 5011
+# a =  5011, y= 5012
+# a =  5012, y= 5013
+# a =  5013, y= 5014
+# a =  5014, y= 5015
+# a =  5015, y= 5016
+# a =  5016, y= 5017
+# a =  5017, y= 5018
+# a =  5018, y= 5019
+# a =  5019, y= 5020
+# a =  5020, y= 5021
+# a =  5021, y= 5022
+# a =  5022, y= 5023
+# a =  5023, y= 5024
+# a =  5024, y= 5025
+# a =  5025, y= 5026
+# a =  5026, y= 5027
+# a =  5027, y= 5028
+# a =  5028, y= 5029
+# a =  5029, y= 5030
+quit -sim

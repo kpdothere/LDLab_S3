@@ -1,0 +1,100 @@
+# reading C:/Modeltech_pe_edu_10.4a/win32pe_edu/../modelsim.ini
+# Loading project 16_bit_negator
+# Compile of neg_16bit.v was successful.
+# Compile of testbench_neg_16bit.v was successful.
+vsim 16_bit_negator.testbench_neg_16bit
+# vsim 
+# Start time: 17:35:59 on Oct 28,2020
+# Loading 16_bit_negator.testbench_neg_16bit
+# Loading 16_bit_negator.neg_16bit
+# Loading 16_bit_negator.not_gate
+add wave -position insertpoint sim:/testbench_neg_16bit/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: k p  Hostname: KPHERE  ProcessID: 13960
+# 
+#           Attempting to use alternate WLF file "./wlft2h55a3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft2h55a3
+# 
+run
+# a =  5000, y=60535
+# a =  5001, y=60534
+# a =  5002, y=60533
+# a =  5003, y=60532
+# a =  5004, y=60531
+# a =  5005, y=60530
+# a =  5006, y=60529
+# a =  5007, y=60528
+# a =  5008, y=60527
+# a =  5009, y=60526
+# a =  5010, y=60525
+# a =  5011, y=60524
+# a =  5012, y=60523
+# a =  5013, y=60522
+# a =  5014, y=60521
+# a =  5015, y=60520
+# a =  5016, y=60519
+# a =  5017, y=60518
+# a =  5018, y=60517
+# a =  5019, y=60516
+# a =  5020, y=60515
+# a =  5021, y=60514
+# a =  5022, y=60513
+# a =  5023, y=60512
+# a =  5024, y=60511
+# a =  5025, y=60510
+# a =  5026, y=60509
+# a =  5027, y=60508
+# a =  5028, y=60507
+# a =  5029, y=60506
+# Compile of testbench_neg_16bit.v was successful.
+vsim 16_bit_negator.testbench_neg_16bit
+# vsim 
+# Start time: 17:37:30 on Oct 28,2020
+# Loading 16_bit_negator.testbench_neg_16bit
+# Loading 16_bit_negator.neg_16bit
+# Loading 16_bit_negator.not_gate
+add wave -position insertpoint sim:/testbench_neg_16bit/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: k p  Hostname: KPHERE  ProcessID: 13960
+# 
+#           Attempting to use alternate WLF file "./wlfth5jxk4".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlfth5jxk4
+# 
+run
+# a = 0001001110001000, y=1110110001110111
+# a = 0001001110001001, y=1110110001110110
+# a = 0001001110001010, y=1110110001110101
+# a = 0001001110001011, y=1110110001110100
+# a = 0001001110001100, y=1110110001110011
+# a = 0001001110001101, y=1110110001110010
+# a = 0001001110001110, y=1110110001110001
+# a = 0001001110001111, y=1110110001110000
+# a = 0001001110010000, y=1110110001101111
+# a = 0001001110010001, y=1110110001101110
+# a = 0001001110010010, y=1110110001101101
+# a = 0001001110010011, y=1110110001101100
+# a = 0001001110010100, y=1110110001101011
+# a = 0001001110010101, y=1110110001101010
+# a = 0001001110010110, y=1110110001101001
+# a = 0001001110010111, y=1110110001101000
+# a = 0001001110011000, y=1110110001100111
+# a = 0001001110011001, y=1110110001100110
+# a = 0001001110011010, y=1110110001100101
+# a = 0001001110011011, y=1110110001100100
+# a = 0001001110011100, y=1110110001100011
+# a = 0001001110011101, y=1110110001100010
+# a = 0001001110011110, y=1110110001100001
+# a = 0001001110011111, y=1110110001100000
+# a = 0001001110100000, y=1110110001011111
+# a = 0001001110100001, y=1110110001011110
+# a = 0001001110100010, y=1110110001011101
+# a = 0001001110100011, y=1110110001011100
+# a = 0001001110100100, y=1110110001011011
+# a = 0001001110100101, y=1110110001011010
+quit -sim

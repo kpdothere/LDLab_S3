@@ -1,0 +1,83 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# Loading project ALU
+# Compile of alu_16.v was successful.
+# Compile of testbench_alu_16.v was successful.
+vsim ALU.testbench_alu
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 23:44:24 on Oct 28,2020
+# Loading ALU.testbench_alu
+# Loading ALU.alu
+# Loading ALU.not_gate
+# Loading ALU.and_gate_16w1
+# Loading ALU.xor_gate_16w1
+# Loading ALU.and_gate_16
+# Loading ALU.adder_16bit
+# Loading ALU.fulladder
+# Loading ALU.xor_gate
+# Loading ALU.and_gate
+# Loading ALU.or_gate
+# Loading ALU.mux_16bit_2_1
+# Loading ALU.nor16_1bit
+# Loading ALU.mux
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(212): [PCDPC] - Port size (16) does not match connection size (1) for port 'y'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(26).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_alu/A/a1 File: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(213): [PCDPC] - Port size (16) does not match connection size (1) for port 'y'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_alu/A/x1 File: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(213): [PCDPC] - Port size (16) does not match connection size (1) for port 'a'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_alu/A/x1 File: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(216): [PCDPC] - Port size (16) does not match connection size (1) for port 'y'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(26).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_alu/A/a2 File: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(217): [PCDPC] - Port size (16) does not match connection size (1) for port 'y'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_alu/A/x2 File: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(217): [PCDPC] - Port size (16) does not match connection size (1) for port 'a'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_alu/A/x2 File: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(219): [PCDPC] - Port size (16) does not match connection size (1) for port 'y'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(18).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_alu/A/a3 File: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(219): [PCDPC] - Port size (16) does not match connection size (1) for port 'a'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(18).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_alu/A/a3 File: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(219): [PCDPC] - Port size (16) does not match connection size (1) for port 'b'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(18).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_alu/A/a3 File: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(220): [PCDPC] - Port size (16) does not match connection size (1) for port 'y'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(121).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_alu/A/add File: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(220): [PCDPC] - Port size (16) does not match connection size (1) for port 'a'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(121).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_alu/A/add File: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(220): [PCDPC] - Port size (16) does not match connection size (1) for port 'b'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(121).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_alu/A/add File: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(222): [PCDPC] - Port size (16) does not match connection size (1) for port 'o'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(157).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_alu/A/m1 File: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(222): [PCDPC] - Port size (16) does not match connection size (1) for port 'a'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(157).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_alu/A/m1 File: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(222): [PCDPC] - Port size (16) does not match connection size (1) for port 'b'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(157).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_alu/A/m1 File: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(224): [PCDPC] - Port size (16) does not match connection size (1) for port 'a'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_alu/A/x3 File: C:/Modeltech_pe_edu_10.4a/examples/testbench_alu_16.v
+add wave -position insertpoint sim:/testbench_alu/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: k p  Hostname: KPHERE  ProcessID: 13960
+# 
+#           Attempting to use alternate WLF file "./wlftbjry80".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftbjry80
+# 
+run
+quit -sim

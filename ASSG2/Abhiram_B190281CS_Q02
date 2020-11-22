@@ -1,0 +1,32 @@
+# reading C:/Modeltech_pe_edu_10.4a/win32pe_edu/../modelsim.ini
+# Loading project full_adder
+# Compile of fulladder.v was successful.
+# Compile of testbench_fulladder.v was successful.
+vsim full_adder.testbench_fulladder
+# vsim 
+# Start time: 17:20:57 on Oct 28,2020
+# Loading full_adder.testbench_fulladder
+# Loading full_adder.fulladder
+# Loading full_adder.xor_gate
+# Loading full_adder.and_gate
+# Loading full_adder.or_gate
+add wave -position insertpoint sim:/testbench_fulladder/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: k p  Hostname: KPHERE  ProcessID: 13960
+# 
+#           Attempting to use alternate WLF file "./wlftayvkma".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftayvkma
+# 
+run
+# a = 0, b = 0, c = 0, s = 0, c_out = 0
+# a = 0, b = 1, c = 0, s = 1, c_out = 0
+# a = 1, b = 0, c = 0, s = 1, c_out = 0
+# a = 1, b = 1, c = 0, s = 0, c_out = 1
+# a = 0, b = 0, c = 1, s = 1, c_out = 0
+# a = 0, b = 1, c = 1, s = 0, c_out = 1
+# a = 1, b = 0, c = 1, s = 0, c_out = 1
+# a = 1, b = 1, c = 1, s = 1, c_out = 1
+quit -sim

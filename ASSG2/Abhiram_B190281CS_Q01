@@ -1,0 +1,43 @@
+# Compile of halfadder.v was successful.
+# Compile of testbench_halfadder.v was successful.
+vsim half_adder.testbench_halfadder
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 17:17:41 on Oct 28,2020
+# Loading half_adder.testbench_halfadder
+# Loading half_adder.halfadder
+# Loading half_adder.xor_gate
+# Loading half_adder.and_gate
+add wave -position insertpoint sim:/testbench_halfadder/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: k p  Hostname: KPHERE  ProcessID: 13960
+# 
+#           Attempting to use alternate WLF file "./wlftrj17xi".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftrj17xi
+# 
+run
+# a = 0, b = 0, s=0, c = 0
+# a = 0, b = 1, s=1, c = 0
+# a = 1, b = 0, s=1, c = 0
+# a = 1, b = 1, s=0, c = 1
+quit -sim
