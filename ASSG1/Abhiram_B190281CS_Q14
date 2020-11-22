@@ -1,0 +1,175 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# Loading project mux_16
+# Compile of mux_16.v was successful.
+# Compile of testbench_mux_16.v failed with 7 errors.
+# Compile of testbench_mux_16.v was successful.
+# Compile of mux_16.v was successful.
+# Compile of testbench_mux_16.v was successful.
+vsim work.testbench_mux_16
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 23:09:09 on Oct 04,2020
+# Loading work.testbench_mux_16
+# ** Error: (vsim-3033) C:/Modeltech_pe_edu_10.4a/examples/testbench_mux_16.v(7): Instantiation of 'demux_16' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_mux_16 File: C:/Modeltech_pe_edu_10.4a/examples/testbench_mux_16.v
+#         Searched libraries:
+#             C:/Modeltech_pe_edu_10.4a/examples/work
+# Error loading design
+# Compile of testbench_mux_16.v was successful.
+# Compile of mux_16.v was successful.
+# Compile of testbench_mux_16.v was successful.
+vsim work.testbench_mux_16
+# vsim 
+# Start time: 23:09:57 on Oct 04,2020
+# Loading work.testbench_mux_16
+# Loading work.mux_16
+# Loading work.mux
+add wave -position insertpoint sim:/testbench_mux_16/*
+run
+quit -sim
+# reading C:/Modeltech_pe_edu_10.4a/win32pe_edu/../modelsim.ini
+# Loading project mux_4_16
+# Compile of mux_4_16.v was successful.
+# Compile of testbench_mux_4_16.v was successful.
+vsim work.testbench_mux_4_16
+# vsim 
+# Start time: 23:25:37 on Oct 04,2020
+# Loading work.testbench_mux_4_16
+# Loading work.mux_4_16
+# Loading work.mux_16
+# Loading work.mux
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/testbench_mux_4_16.v(5): [PCDPC] - Port size (16) does not match connection size (1) for port 'y'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/mux_4_16.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_mux_4_16/a File: C:/Modeltech_pe_edu_10.4a/examples/mux_4_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/mux_4_16.v(6): [PCDPC] - Port size (16) does not match connection size (1) for port 's'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/mux_16.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_mux_4_16/a/mux_16_1 File: C:/Modeltech_pe_edu_10.4a/examples/mux_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/mux_4_16.v(7): [PCDPC] - Port size (16) does not match connection size (1) for port 's'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/mux_16.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_mux_4_16/a/mux_16_2 File: C:/Modeltech_pe_edu_10.4a/examples/mux_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/mux_4_16.v(8): [PCDPC] - Port size (16) does not match connection size (1) for port 's'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/mux_16.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_mux_4_16/a/mux16_3 File: C:/Modeltech_pe_edu_10.4a/examples/mux_16.v
+quit -sim
+# reading C:/Modeltech_pe_edu_10.4a/win32pe_edu/../modelsim.ini
+# Loading project mux_8_16
+# Compile of mux_8_16.v was successful.
+# Compile of testbench_mux_8_16.v was successful.
+vsim work.testbench_mux_8_16
+# vsim 
+# Start time: 23:38:26 on Oct 04,2020
+# Loading work.testbench_mux_8_16
+# Loading work.mux_8_16
+# Loading work.mux_4_16
+# Loading work.mux_16
+# Loading work.mux
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/testbench_mux_8_16.v(5): [PCDPC] - Port size (16) does not match connection size (1) for port 'y'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/mux_8_16.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_mux_8_16/a File: C:/Modeltech_pe_edu_10.4a/examples/mux_8_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/mux_4_16.v(6): [PCDPC] - Port size (16) does not match connection size (1) for port 's'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/mux_16.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_mux_8_16/a/mux_4_16_1/mux_16_1 File: C:/Modeltech_pe_edu_10.4a/examples/mux_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/mux_4_16.v(7): [PCDPC] - Port size (16) does not match connection size (1) for port 's'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/mux_16.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_mux_8_16/a/mux_4_16_1/mux_16_2 File: C:/Modeltech_pe_edu_10.4a/examples/mux_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/mux_4_16.v(8): [PCDPC] - Port size (16) does not match connection size (1) for port 's'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/mux_16.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_mux_8_16/a/mux_4_16_1/mux16_3 File: C:/Modeltech_pe_edu_10.4a/examples/mux_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/mux_4_16.v(6): [PCDPC] - Port size (16) does not match connection size (1) for port 's'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/mux_16.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_mux_8_16/a/mux_4_16_2/mux_16_1 File: C:/Modeltech_pe_edu_10.4a/examples/mux_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/mux_4_16.v(7): [PCDPC] - Port size (16) does not match connection size (1) for port 's'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/mux_16.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_mux_8_16/a/mux_4_16_2/mux_16_2 File: C:/Modeltech_pe_edu_10.4a/examples/mux_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/mux_4_16.v(8): [PCDPC] - Port size (16) does not match connection size (1) for port 's'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/mux_16.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_mux_8_16/a/mux_4_16_2/mux16_3 File: C:/Modeltech_pe_edu_10.4a/examples/mux_16.v
+# ** Warning: (vsim-3015) C:/Modeltech_pe_edu_10.4a/examples/mux_8_16.v(8): [PCDPC] - Port size (16) does not match connection size (1) for port 's'. The port definition is at: C:/Modeltech_pe_edu_10.4a/examples/mux_16.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_mux_8_16/a/mux_16_1 File: C:/Modeltech_pe_edu_10.4a/examples/mux_16.v
+quit -sim
+# reading C:/Modeltech_pe_edu_10.4a/win32pe_edu/../modelsim.ini
+# Loading project demux_4
+# Compile of demux_4.v was successful.
+# Compile of testbench_demux_4.v was successful.
+vsim work.testbench_demux_4
+# vsim 
+# Start time: 23:50:36 on Oct 04,2020
+# Loading work.testbench_demux_4
+# Loading work.demux_4
+# Loading work.demux
+# Loading work.not_gate
+# Loading work.and_gate
+# Compile of demux_4.v was successful.
+# Compile of testbench_demux_4.v was successful.
+vsim work.testbench_demux_4
+# vsim 
+# Start time: 23:51:06 on Oct 04,2020
+# Loading work.testbench_demux_4
+# Loading work.demux_4
+# Loading work.demux
+# Loading work.not_gate
+# Loading work.and_gate
+add wave -position insertpoint sim:/testbench_demux_4/*
+run
+quit -sim
+# reading C:/Modeltech_pe_edu_10.4a/win32pe_edu/../modelsim.ini
+# Loading project demux_8
+# Compile of demux_8.v failed with 1 errors.
+# Compile of demux_8.v was successful with warnings.
+# Compile of testbench_demux_8.v was successful.
+vsim work.testbench_demux_8
+# vsim 
+# Start time: 00:04:20 on Oct 05,2020
+# Loading work.testbench_demux_8
+# Loading work.demux_8
+# Loading work.demux
+# Loading work.not_gate
+# Loading work.and_gate
+# Loading work.demux_4
+# Compile of demux_8.v was successful with warnings.
+# Compile of testbench_demux_8.v was successful.
+vsim work.testbench_demux_8
+# vsim 
+# Start time: 00:04:49 on Oct 05,2020
+# Loading work.testbench_demux_8
+# Loading work.demux_8
+# Loading work.demux
+# Loading work.not_gate
+# Loading work.and_gate
+# Loading work.demux_4
+add wave -position insertpoint sim:/testbench_demux_8/*
+run
+vlog -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0 {C:\Modeltech_pe_edu_10.4a\examples\mux_16.v}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 00:10:35 on Oct 05,2020
+# vlog -reportprogress 300 -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0 C:\Modeltech_pe_edu_10.4a\examples\mux_16.v 
+# -- Compiling module mux_16
+# 
+# Top level modules:
+# 	mux_16
+# End time: 00:10:35 on Oct 05,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0 {C:\Modeltech_pe_edu_10.4a\examples\testbench_mux_16.v}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 00:10:45 on Oct 05,2020
+# vlog -reportprogress 300 -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0 C:\Modeltech_pe_edu_10.4a\examples\testbench_mux_16.v 
+# -- Compiling module testbench_mux_16
+# 
+# Top level modules:
+# 	testbench_mux_16
+# End time: 00:10:45 on Oct 05,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench_mux_16
+# vsim 
+# Start time: 00:10:52 on Oct 05,2020
+# Loading work.testbench_mux_16
+# Loading work.mux_16
+# Loading work.mux
+add wave -position insertpoint sim:/testbench_mux_16/*
+run

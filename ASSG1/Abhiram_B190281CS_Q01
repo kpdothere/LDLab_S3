@@ -1,0 +1,48 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# Loading project demux
+vsim work.not_gate
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 22:16:40 on Oct 04,2020
+# Loading work.not_gate
+add wave -position insertpoint sim:/not_gate/*
+run
+vsim work.testbench_not_gate
+# vsim 
+# Start time: 22:17:44 on Oct 04,2020
+# Loading work.testbench_not_gate
+# Loading work.not_gate
+vlog -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0 C:/Modeltech_pe_edu_10.4a/examples/testbench_not_gate.v
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 22:18:11 on Oct 04,2020
+# vlog -reportprogress 300 -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0 C:/Modeltech_pe_edu_10.4a/examples/testbench_not_gate.v 
+# -- Compiling module testbench_not_gate
+# 
+# Top level modules:
+# 	testbench_not_gate
+# End time: 22:18:11 on Oct 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench_not_gate
+# vsim 
+# Start time: 22:18:20 on Oct 04,2020
+# Loading work.testbench_not_gate
+# Loading work.not_gate
+add wave -position insertpoint sim:/testbench_not_gate/*
+run
